@@ -17,6 +17,7 @@ public class MainActivityPresenter implements MainActivityMVP.MAPresenter{
     private Subscription subscription=null;
     private MainActivityMVP.MAmodel mAmodel;
 
+    @Inject
     public MainActivityPresenter(MainActivityMVP.MAmodel mAmodel) {
         this.mAmodel = mAmodel;
     }

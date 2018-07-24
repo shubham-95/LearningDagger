@@ -19,6 +19,7 @@ import dagger.android.support.DaggerAppCompatActivity;
 
 public class MainActivity extends DaggerAppCompatActivity {
 
+
     @Inject
     Lazy<MainActivityFragment> mainActivityFragmentLazy;
     @Override
